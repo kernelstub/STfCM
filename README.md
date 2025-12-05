@@ -1,6 +1,7 @@
 # STfCM – Satellite Tracker for Conflict Monitoring
 
-<img width="1920" height="1080" alt="stfcm" src="https://github.com/user-attachments/assets/88314c0e-e50a-4a36-aa2c-aa7b9897512c" />
+<img width="1896" height="1057" alt="image" src="https://github.com/user-attachments/assets/d0c10b87-3785-4f24-8b9f-3f2a7d8a38dd" />
+
 
 STfCM is a small, satellite tracking app. A Rust backend serves a simple web UI, fetches and stores TLEs, propagates orbits with SGP4, and exposes endpoints used by the frontend to render satellites on a 3D globe and compute passes for user saved ground stations.
 
@@ -98,3 +99,4 @@ STfCM is a small, satellite tracking app. A Rust backend serves a simple web UI,
 
 - No external database setup required; rusqlite uses a bundled SQLite.
 - The app targets single‑node local usage; service hardening and multi‑user auth are out of scope for this minimal build.
+
